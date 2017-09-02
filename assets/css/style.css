@@ -1,0 +1,23 @@
+
+
+.styles {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+#sports {
+	background-color: #6b9397;
+}
+
+.buttonsView{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: teal;
+	border-radius: 10px;
+}
+.teams:hover, #addTeam:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+form {
+	margin: 20px;
+}
