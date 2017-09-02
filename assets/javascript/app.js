@@ -22,7 +22,7 @@ $(document).on('click', '.teams', function() {
 var team = $(this).html();
 console.log(team);
 
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=834a108abc0f4972b9eb2df4ded9ab9b&limit=10";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=834a108abc0f4972b9eb2df4ded9ab9b&limit=10";
 // console.log(queryURL);
 $.ajax({url: queryURL, method: 'GET'})
 .done(function(response) {
