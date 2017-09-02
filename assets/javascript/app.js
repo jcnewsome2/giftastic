@@ -32,7 +32,7 @@ $(document).ready(function(){
         .done(function(response) {
             // grabs the data
             var results = response.data;
-            // console.log(results);
+            console.log(results);
             //empties the div before adding more gifs
             $('#teamView').empty();
                 //loops through the data

@@ -1,4 +1,6 @@
-
+ body {
+ 	color: pink;
+ }
 
 .styles {
 	font-family: 'Comfortaa', cursive;
@@ -9,14 +11,14 @@
 }
 
 .buttonsView{
-	padding: 8px;
-	margin: 10px;
-	color: white;
-	background-color: teal;
-	border-radius: 10px;
+	padding: 10px;
+	margin: 12px;
+	color: yellow;
+	background-color: #6b9397;
+	border-radius: 14px;
 }
 .teams:hover, #addTeam:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 20px 50px 0 rgba(0,0,0,0.19);
 }
 form {
 	margin: 20px;
