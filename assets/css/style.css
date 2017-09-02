@@ -1,25 +1,23 @@
- body {
- 	color: pink;
- }
-
-.styles {
-	font-family: 'Comfortaa', cursive;
-	text-align: center;
-}
 #sports {
-	background-color: #6b9397;
+background-color: #6b9397;
 }
+.styles {
+font-family: 'Comfortaa', cursive;
+text-align: center;
+}
+#teamView{
+clear float: both;
+padding: 10px;
+margin-top: : 32px;
+color: white;
+background-color: #6b9397;
+border-radius: 14px;
+width: 90%;
+}
+#buttonsView {
 
-.buttonsView{
-	padding: 10px;
-	margin: 12px;
-	color: yellow;
-	background-color: #6b9397;
-	border-radius: 14px;
-}
-.teams:hover, #addTeam:hover {
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 20px 50px 0 rgba(0,0,0,0.19);
+box-shadow: 0 10px 14px 0 rgba(0,0,30,0.24), 0 20px 50px 0 rgba(10,30,0.19);
 }
 form {
-	margin: 20px;
+margin: 20px;
 }
