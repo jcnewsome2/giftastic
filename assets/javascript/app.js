@@ -67,7 +67,7 @@ var imageDiv = $('<div>');
         //adding new button
         $(document).on('click', '#addTeam', function(){
         if ($('#team-input').val().trim() == ''){
-        alert('Input can not be left blank');
+        alert('You must be a cowboys fan. Please enter a team name. Thanks!! ');
         }
         else {
         var team = $('#team-input').val().trim();

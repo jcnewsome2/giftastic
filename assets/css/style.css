@@ -15,9 +15,13 @@ border-radius: 14px;
 width: 90%;
 }
 #buttonsView {
-
 box-shadow: 0 10px 14px 0 rgba(0,0,30,0.24), 0 20px 50px 0 rgba(10,30,0.19);
 }
+.teams {
+    background-color: #6b9397;
+    color: white;
+    }
+
 form {
 margin: 20px;
 }
